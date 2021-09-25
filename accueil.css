@@ -1,16 +1,10 @@
 body {
     font-family: "arial", sans-serif;
     text-align: center;
-    background-color: hsla(151, 84.97%, 95.56%, 1.00);
+    background-color: rgba(248,239,215,0.925);
     height:100%;
 }
 
-
-@font-face{
-    font-family: Bentho;
-    src: local("bentho"),
-    url(polices/Bentho.ttf)
-}
 @font-face{
     font-family: Bebas;
     src: local('bebas'),
@@ -18,71 +12,14 @@ body {
 }
 
 @font-face{
-    font-family: GreatVibes;
-    src: local("greatvibes"),
-    url(polices/GreatVibes-Regular.ttf)
-}
-
-@font-face{
-    font-family: Exo;
-    src: local("exo"),
-    url(polices/Exo-Regular.ttf)
-}
-@font-face{
-    font-family: Hello;
-    src: local("hello honey"),
-    url(polices/hello_honey.ttf)
-}
-@font-face{
     font-family: Assistant;
     src: local('assistant'),
     url(polices/Assistant-Light.ttf);
     font-weight: lighter;
 }
-#slider {
-    position: relative;
-    width: 600px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-}
-
-#slide1{
-    width:600px;
-    height:400px;
-}
-#slide2{
-    width:600px;
-    height:400px;
-}
-
-#precedent,
-#suivant {
-    cursor: pointer;
-    transition: opacity 0.3s ease;
-    opacity: 0.1;
-    position: absolute;
-    font-size: 80px;
-    color: rgba(220, 220, 220, 0.8);
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 10px;
-}
-
-#precedent {
-    left: 0;
-}
-
-#suivant {
-    right: 0;
-}
-
-#slider:hover #precedent,
-#slider:hover #suivant {
-    opacity: 1;
-}
 
 .grand-titre{
-    font-family: GreatVibes;
+    font-family: Bebas;
     font-size:50px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -109,7 +46,7 @@ nav ul{
 
 nav ul li{
     float: left;
-    width: 25%;
+    width: 20%;
     text-align: center;
     position: relative;
     background-color: hsla(35,2.76%,54.75%,1);
@@ -129,9 +66,10 @@ nav a{
 }
 
 h2{
-    font-family: Hello;
+    font-family: Bebas;
     font-size: 32px;;
 }
+
 section{
     display: inline-block;
     margin-left:0.5%;
@@ -152,11 +90,12 @@ aside{
 p{
     font-family:Assistant;
 }
-
+li{
+    font-family: Assistant;
+}
 h4{
-    font-family:GreatVibes;
+    font-family:Bebas;
     font-size:25px;
-
 }
 
 a {
@@ -172,4 +111,8 @@ footer{
     position:relative;
     bottom:0;
     width:100%;
+}
+
+#photoCV{
+	width:200px;
 }
