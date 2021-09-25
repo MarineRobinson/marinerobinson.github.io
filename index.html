@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Le blog de Marine</title>
+    <link rel="stylesheet" href="style/accueil.css">
+    <script src="anim/accueil.js"></script>
+
+</head>
+
+<body>
+    <h1 class=grand-titre>Le Blog de Marine</h1>
+    <nav>
+		<ul class=menu>
+			<li class=obj-menu> <a href="accueil.html">ACCUEIL </a></li>	
+			<li class=obj-menu> <a href="accueil-photo.html">PHOTOS </a> </li>
+			<li class=obj-menu> <a href="accueil-cuisine.html">CUISINE </a></li>
+			<!--  li class=obj-menu> <a href="#">LECTURE </a></li>  -->
+			<li class=obj-menu> <a href='#'>A PROPOS DE MOI</a></li>
+		</ul>
+	</nav>
+
+	<section id="articles">
+		<aside href='#'>
+			<h2 class=Apropos> <a href="#">A propos de moi : </a></h2>
+			<p class=Apropos> Le blog de Marine</br>Je suis une étudiante de 20 ans en école d'ingénieur. Ce blog est un projet de développement personnel que je mène dans le but de développer des compétences de développement web principalement. Ce projet m'a aussi permis de me concentrer pendant une année entière sur différents thèmes sur lesquels je ne me concentrais pas assez à mon goût. J'ai pu apprendre de nouvelles recettes afin de diversifier mon alimentation, développer ma culture littéraire en découvrant de nouveaux livres, et améliorer ma créativité photographique. </p>
+		</aside>
+
+<h2> Mes articles : </br> </h2>
+			<article id=photo>
+				<h4><a href="accueil-photo.html">Les articles photos :</a></h4>
+				<p>Dans chaque article se trouve une selection de mes propres photos sur chaque thème. </br></p>
+				<div id="slider">
+			        <a href="accueil-photo.html" id="lien1"><img src="photos/Ciel.png" alt="Ciel" id="slide1"></a>
+			        <div id="precedent" onclick="ChangeSlidePhoto(-1)"><</div>
+			        <div id="suivant" onclick="ChangeSlidePhoto(1)">></div>
+			    </div>
+			</article>
+			<article id=cuisine>
+				<h4><a href="accueil-cuisine.html"> Les recettes de cuisine : </a></h4>
+				<p>Dans chaque article se trouve une selection de recettes sur chaque thème.  </br></p> 
+				<div id="slider">
+			        <a href="recette-Chili.html" id="lien2"><img src="photos/AmSud.png" alt="Amérique du Sud" id="slide2"></a>
+			        <div id="precedent" onclick="ChangeSlideCuisine(-1)"><</div>
+			        <div id="suivant" onclick="ChangeSlideCuisine(1)">></div>
+			    </div>
+			</article>
+	
+
+
+	</section>
+
+	<footer>
+		<p><br>Le blog de Marine <br> <br></p>
+
+	</footer>
+
+</body>
+
+</html>
