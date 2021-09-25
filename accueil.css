@@ -8,13 +8,13 @@ body {
 @font-face{
     font-family: Bebas;
     src: local('bebas'),
-    url(polices/BebasNeue-Regular.ttf)
+    url(font/BebasNeue-Regular.ttf)
 }
 
 @font-face{
     font-family: Assistant;
     src: local('assistant'),
-    url(polices/Assistant-Light.ttf);
+    url(font/Assistant-Light.ttf);
     font-weight: lighter;
 }
 
